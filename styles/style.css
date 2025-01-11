@@ -1,4 +1,3 @@
-
 .fira-sans-normal {
     font-family: "fira sans", open sans-serif;
     font-optical-sizing: auto;
@@ -8,11 +7,83 @@
         "wdth" 100;
 }
 
-.nav-title{
-    color: rgb(14, 14, 14);
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
+/* styles in body */
+body {
+    margin: 0 160px;
 }
+
+/* nav styles */
+.nav-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-button {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hero section  */
+.hero-container {
+    display: flex;
+    border-radius: 24px;
+    gap: 60px;
+    background: rgb(198, 228, 214);
+    padding: 110px 0 110px 60px;
+}
+
+.hero-info-container {}
+
+.hero-name {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-button {
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+    
