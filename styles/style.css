@@ -196,14 +196,13 @@ nav {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     margin-top: 32px;
-    background: rgb(255, 255, 255);
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     background: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 1% 11%;
     padding: 48px 10px;
-    
-    
+
+
 }
 
 .qoute-position {
@@ -212,8 +211,32 @@ nav {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
-    
-}
-.qoute-background{
 
 }
+
+/* Recent section styles start from here */
+.recent-section{
+    margin-top: 80px;
+}
+.recent {
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    padding: 48px;
+    gap: 24px;;
+    margin-top: 24px;
+}
+.recent img{
+    border-radius: 24px;
+}
+.recent-title{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+}
+.recent2{
+    flex-direction: row-reverse;
+}
+
