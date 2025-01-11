@@ -10,6 +10,47 @@
 /* styles in body */
 body {
     margin: 0 160px;
+    background-color: whitesmoke;
+}
+
+
+/* shard styles  */
+.section-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border: none;
 }
 
 /* nav styles */
@@ -86,4 +127,93 @@ nav {
     text-align: left;
     border: none;
 }
+
+/* pillar of bangladesh section */
+.pillar-section {
+    margin-top: 80px;
+}
+
+.pillar-container {
+    display: flex;
+    gap: 24px;
+}
+
+.pllar {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    background: rgb(255, 255, 255);
+}
+
+/* the vison of future section */
+.vison-section {
+    margin-top: 80px;
+}
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.vision {
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+.vision-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-2 {
+    background: rgb(198, 228, 214);
+}
+
+.vision-3 {
+    background: rgb(247, 235, 207);
+}
+
+.btn-v1 {
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+}
+
+.btn-v2 {
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+}
+
+.btn-v3 {
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+}
+
+.qoute {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 1% 11%;
+    padding: 48px 10px;
     
+    
+}
+
+.qoute-position {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+}
+.qoute-background{
+
+}
